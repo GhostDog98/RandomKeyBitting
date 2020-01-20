@@ -3,7 +3,17 @@ from random import randrange
 
 
 
-
+print("""
+ *******   **   **   ******** 
+/**////** /**  **   **//////**
+/**   /** /** **   **      // 
+/*******  /****   /**         
+/**///**  /**/**  /**    *****
+/**  //** /**//** //**  ////**
+/**   //**/** //** //******** 
+//     // //   //   ////////
+""")
+print("By GhostDog98 on github")
 
 
 
@@ -53,12 +63,11 @@ for g in range(iterations):
     else:
         bit1ofgroup = bit1ofgroup+2
         bit2ofgroup = bit2ofgroup+2
-        print("Cut not suitable, rerolling")
         iterations = iterations+1
 
 
 
 # Note: For future dev. a list called "FinalBitting" holds the normally printed values in a list
-
+input() #  Used to make the terminal application not quit instantly
 
 
